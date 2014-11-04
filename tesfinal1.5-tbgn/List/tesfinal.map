@@ -1,0 +1,34 @@
+RAM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+buff                                                              0x00E0      33
+timerec                                                           0x0101       2
+rx_buffer                                                         0x0103       8
+rx_wr_index                                                       0x010B       1
+rx_rd_index                                                       0x010C       1
+rx_counter                                                        0x010D       1
+tx_buffer                                                         0x010E       8
+tx_wr_index                                                       0x0116       1
+tx_rd_index                                                       0x0117       1
+tx_counter                                                        0x0118       1
+i                                                                 0x0119       1
+j                                                                 0x011A       1
+data_rx                                                           0x011B      16
+_base_y                                                           0x012B       4
+_lcd_x                                                            0x012F       1
+_lcd_y                                                            0x0130       1
+_lcd_maxx                                                         0x0131       1
+
+EEPROM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                          Register  Size
+--------------------------------------------------------------------------------
+enc_ka                                                            R4,R5        2
+enc_ki                                                            R6,R7        2
+rec_ki                                                            R8,R9        2
+rec_ka                                                            R10,R11      2
+timer                                                             R12,R13      2
+rx_buffer_overflow                                                R2.0      1bit
